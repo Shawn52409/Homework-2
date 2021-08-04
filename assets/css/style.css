@@ -10,7 +10,7 @@ body {
 
 .coding-image{
     padding: 6em 0;
-    background-image: url(.assets/img/coding.jpg);
+    background-image: url(../img/coding.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -55,27 +55,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-  
-aside {
-    flex: 1;
-    background-color: #b9c6ae;
-    padding: 20px;
-}
-  
-section {
-    flex: 3;
-    background-color: #fff;
-    padding: 20px;
-}
-  
-.sample-img {
-    background-color: #fff;
-    width: 100%;
-    padding: 20px;
-    height: 200px;
-    border: 1px solid black;
-}
-  
+ 
 footer {
     padding: 20px;
     text-align: center;

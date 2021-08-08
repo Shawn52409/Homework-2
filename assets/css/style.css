@@ -287,8 +287,55 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
-main, nav, {
-    flex-direction: column;
+
+/* Use flex-direction stack the header */
+.coding-image {
+    display: flex;
     flex-wrap: wrap;
+}
+
+/* shrink my name */
+.coding-image h1 {
+    font-size: 400%;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* give some space between heading and projects */
+#class-projects h2 {
+    position: relative;
+}
+
+/* adding width and margins to the projects so they are not squished */
+.project-1 p {
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 500px;
+    justify-content: center;
+}
+
+.project-2 p {
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 500px;
+}
+
+.project-3 p {
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 500px;
+}
+
+
+/* move contact info to fit screen */
+.contact-me p {
+    margin: 0%;
+    text-align: center;
+}
+
+/* move resume link to fit screen */
+.resume p {
+    margin: 0%;
+    text-align: center;    
+}
 }

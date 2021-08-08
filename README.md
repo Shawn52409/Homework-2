@@ -12,4 +12,7 @@ This website was made to show off my accomplishments as a web developer.  On thi
 !assets\img\tiedye.jpg
 
 # Known Bugs
-No known bugs, although the website is not scaling very well on smaller devices
+No known bugs, although I will be making changes to tweek the formatting as I learn more languages through out the course.
+
+## Contact info
+shawnsmm@gmail.com

@@ -4,7 +4,7 @@
     --shadow: rgb(54, 196, 240);
 }
 
-
+/* background image of header */
 .coding-image{
     padding: 7em 0;
     background-image: url(../img/coding.jpg);
@@ -27,6 +27,13 @@ header h1 {
     /* background-color: rgb(109, 109, 109);
     padding: 15px;
     border-radius: 50px; */
+}
+/* personal photo */
+img{
+    position: relative;
+    margin-left: 30px;
+    width: 300px;
+    border-radius: 100%;
 }
 
 /* Navigation Bar off the right below "Shawn Miller" */
@@ -298,7 +305,6 @@ footer {
 .coding-image h1 {
     font-size: 400%;
     margin-left: 10px;
-    text-align: center;
 }
 
 /* give some space between heading and projects */
